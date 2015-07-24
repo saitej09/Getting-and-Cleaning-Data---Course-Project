@@ -12,14 +12,14 @@ The script  "run_analysis.R"  performs the following 5 steps to get the tidy dat
 
 The following variables are used in the R script:
 
-xtrain, ytrain, sub_train read the data from the train folder of the data set downloaded. Similarly, xtest, ytest, sub_test read the data from the test folder.
+- xtrain, ytrain, sub_train read the data from the train folder of the data set downloaded. Similarly, xtest, ytest, sub_test read the data from the test folder.
 
-xdata, ydata and sub_data are the merged data.
+- xdata, ydata and sub_data are the merged data.
 
-feat reads the variables from "features.txt" which are the correct names to xdata.
+- feat reads the variables from "features.txt" which are the correct names to xdata.
 
-activity stores all the labels from "activity_labels.txt".
+- activity stores all the labels from "activity_labels.txt".
 
-all houses the combined data of xdata, ydata and sub_data which is clean data set.
+- all houses the combined data of xdata, ydata and sub_data which is clean data set.
 
-avg_data holds all the averages of the all data set which is written to a text file "avg_data.txt"
+- avg_data holds all the averages of the all data set which is written to a text file "avg_data.txt"
